@@ -16,6 +16,7 @@ const prodConfig = {
       name: 'container',
       remotes: {
         marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`, //S3バケットのディレクトリ
+        auth: `auth@${domain}/auth/latest/remoteEntry.js`, //S3バケットのディレクトリ
       },
       shared: packageJson.dependencies,
     }),
